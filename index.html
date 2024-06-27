@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        .navbar {
+            position: fixed;
+            width: 100%;
+            background: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            text-transform: uppercase;
+        }
+        .navbar a:hover {
+            background: #77aaff;
+            color: #fff;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding-top: 60px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #77aaff;
+            color: white;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            background-color: #77aaff;
+            color: white;
+            padding: 10px;
+            margin: -20px -20px 10px -20px;
+            text-align: center;
+        }
+        .skills ul, .academics ul, .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills ul li, .academics ul li, .projects ul li {
+            background: #f9f9f9;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            width: 100%;
+        }
+        .contact form button {
+            padding: 10px;
+            background: #77aaff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .projects ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .projects ul li {
+            flex: 1 1 calc(33% - 20px);
+            background: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .projects ul li h3 {
+            margin-top: 0;
+        }
+        .projects ul li p {
+            font-size: 14px;
+            color: #666;
+        }
+        .projects ul li a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            background: #77aaff;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+        .projects ul li a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#introduction">Introduction</a>
+        <a href="#resume">Resume</a>
+        <a href="#academics">Academics</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>Yamaker Shivani</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>I am currently pursuing a Bachelor of Technology in Information Technology from B V Raju Institute of Technology, with an expected graduation date of May 2025. My academic journey has equipped me with a robust foundation in core IT principles, including software development, cybersecurity, and database management.</p>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>You can view my resume by clicking the link below:</p>
+            <a href="21211a12c8_shivani.pdf" target="_blank">Download Resume</a>
+        </section>
+        <section id="academics">
+            <h2>Academics</h2>
+            <ul>
+                <li>Bachelor of Technology in Information Technology  - B V Raju Institute of Technology 2021-2025</li>
+                <li>Intermediate (MPC) - Narayana Junior College 2019-2021</li>
+                <li>Schooling - Bhasyham High School 2019</li>
+                <!-- Add more academic qualifications as needed -->
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul class="projects">
+                <li>
+                    <h3>Project 1 - Solar Tracking System</h3>
+                    <p>Description of Project 1.  The Solar Tracking System using IoT is an advanced technology solution designed to optimize the performance of solar panels by ensuring they consistently align with the sun's trajectory. This system uses real-time data and smart automation to increase energy capture, providing a more efficient and sustainable energy source. Integrating IoT capabilities allows for remote monitoring, data analytics, and system adjustments, enhancing overall system efficiency and reliability.</p>
+                    
+                </li>
+                <li>
+                    <h3>Project 2 - The Amazon Clone project</h3>
+                    <p>Description of Project 2. The Amazon Clone project is a comprehensive e-commerce web application designed to mimic the functionalities and user experience of Amazon, one of the world's leading online retail platforms. This project showcases proficiency in full-stack web development, integrating modern technologies and best practices to create a fully functional, scalable, and user-friendly e-commerce site.</p>
+                    
+                </li>
+                
+                <!-- Add more projects as needed -->
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Soft Skills</li>
+                
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p class="text-lg mb-2">Email: shivayamaker123@gmail.com</p>
+            <p class="text-lg mb-2">Phone: +91 9705604564</p>
+        </section>
+    </div>
+
+    <script>
+        // Smooth scrolling for internal links
+        document.querySelectorAll('.navbar a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+
